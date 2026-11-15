@@ -23,7 +23,7 @@ const options = [
 function App() {
   return (
     <div style={{ padding: '1rem', maxWidth: 900, margin: '0 auto' }}>
-      <HeroImage imageUrl="https://picsum.photos/1200/400" title="UI Garden" />
+      <HeroImage imageUrl="/garden.jpg" title="UI Garden" />
 
       <h2>Button</h2>
       <Button label="Default" />
@@ -41,12 +41,9 @@ function App() {
       <RadioButton label="Disabled choice" name="demo" disabled />
 
       <h2>Img and Card</h2>
-      <Img src="https://picsum.photos/400/250" alt="Sample" />
-      <Card
-        title="Card title"
-        content="Card content."
-        imageUrl="https://picsum.photos/400/200"
-      />
+      <Img src="/garden.jpg" alt="Sample" />
+      <Card title="Card title" content="Card content." imageUrl="/garden.jpg" />
+
       <Card title="Disabled card" content="Greyed out." disabled />
 
       <h2>Table</h2>
